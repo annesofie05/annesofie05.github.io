@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Kaj Børges Logbog</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="style.css"></link>
+    </head>
+    <body>
+        <!-- Navigation bar HTML -->
+        <div class="topnav" id="myTopnav">
+            <a href="index.html">Name</a>
+            <a href="informatik.html" class="active">INF</a>
+            <a href="matematik.html">MAT</a>
+            <a href="dansk.html">DAN</a>
+            <a href="engelsk.html">ENG</a>
+            <a href="dotdotdot.html">...</a>
+            <a href="so.html">SO</a>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+              <i class="fa fa-bars"></i>
+            </a>
+        </div>
+
+        <!-- Accordion HTML -->
+        <div class="content" id="informatik">
+            <div class="element left">
+                <h2>Informatik Noter</h2>
+
+                <button class="accordion">HTML Noter</button>
+                <div class="panel">
+                <p>
+                    HTML er til at definere indholdet på en hjemmeside.
+                    <br>
+                    <br>
+                    Her er et link: 
+                    <br>
+                    https://www.w3schools.com/html/html_intro.asp
+                </p>
+                </div>
+
+                <button class="accordion">CSS</button>
+                <div class="panel">
+                    <p>CSS gør at man kan ændre udseendet på sin hjemmeside. Man kan ændre farver, størrelser og sætte billeder ind. 
+                        De 5 grafiske design regler: 
+                      
+                    </p>
+                </div>
+
+                <button class="accordion">Javascript og DOM</button>
+                <div class="panel">
+                    <p>Javascript og DOM
+                        <br>
+                        DOM er en slags Javascript, specifict til browser filer. 
+                        <br>
+                        Javascript gør hjemmesiden mere dynamisk, end man kan gøre med HTML og CSS. 
+                        <br>
+                        F.eks. når man trykker på en af sektionerne i hjemmesiden, så sker der noget, det bliver dynamisk. 
+                        <br>
+                        Javascript gør også at man ikke behøver ændre information hvert sted det står, men man kan lave en overordnet data ændring. 
+                    </p>
+                </div>
+            </div>
+
+            <div class="element left">
+                <h2>Informatik Projekter</h2>
+                <button class="accordion">Spiral metoden</button>
+                <div class="panel">
+                <p>Spiral metoden. Vi skal lave en case og fremstille et teknologisk værktøj der kan hjælpe på det. Vi vil lave en app til clever touch skærmene. 
+                    <br>
+                    <br>
+                    Spiral metoden: assess, design, build. 
+                    <br>
+                    <br>
+                    Asses:  We’re assessing what users are currently doing and what their needs are so that we can understand the design space and the problems that they’re facing so that we can design products that will address those needs.
+                    <br>
+                    <br>
+                    Her er en liste af forskellige metoder:
+                    <br>
+                    <br>
+                    Interviews (snak med brugerne)
+                    <br>
+                    Observations (kig på brugerne)
+                    <br>
+                    Surveys (giv brugerne spørgeskemaer)
+                    <br>
+                    User Testing (få brugerne til at afprøve produktet)
+                    <br>
+                    Inspection Methods (kig selv på produktet, som om at du var en bruger) 
+                </p>
+                </div>
+
+                <button class="accordion">Section 2</button>
+                <div class="panel">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                </div>
+
+                <button class="accordion">Section 3</button>
+                <div class="panel">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                </div>
+            </div>
+
+        </div>
+        <script src="script.js"></script>
+    </body>
+</html>
